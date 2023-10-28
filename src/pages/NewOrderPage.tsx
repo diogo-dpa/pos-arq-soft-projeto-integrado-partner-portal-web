@@ -91,7 +91,7 @@ export default function NewOrderPage() {
 							}}
 							fileObjects={form.files}
 							useChipsForPreview
-							acceptedFiles={[".csv", ".xlsx"]}
+							acceptedFiles={[".csv"]}
 							maxFileSize={3000000}
 							filesLimit={5}
 							dropzoneText="Arraste os arquivos ou clique aqui. Permitido, no máximo, 5 arquivos"
@@ -103,7 +103,7 @@ export default function NewOrderPage() {
 						/>
 						<span
 							className={descriptionDropzone}
-						>{`Formato dos arquivos permitidos: .csv e .xlsx. Tamanho total: ${totalSize} KB`}</span>
+						>{`Formato dos arquivos permitidos: .csv. Tamanho total: ${totalSize} KB`}</span>
 					</div>
 				</div>
 				<Button
